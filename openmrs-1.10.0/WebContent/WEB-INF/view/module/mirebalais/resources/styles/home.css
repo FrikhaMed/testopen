@@ -1,0 +1,18 @@
+/* line 1, ../../../compass/sass/home.scss */
+hr.separator {
+  width: 100%;
+  border-bottom: 1px dashed #CCC;
+  margin-bottom: 40px;
+}
+
+/* line 7, ../../../compass/sass/home.scss */
+#home-container {
+  margin: 0 auto;
+}
+/* line 10, ../../../compass/sass/home.scss */
+#home-container #apps {
+  border-bottom: 1px dashed #CCC;
+  margin: 40px 0;
+  padding: 10px 0;
+  border-top: 1px dashed #CCC;
+}

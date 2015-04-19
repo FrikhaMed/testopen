@@ -1,0 +1,437 @@
+/* line 4, ../../../compass/sass/patientDashboard.scss */
+.tabs {
+  min-height: 300px;
+}
+
+/* line 8, ../../../compass/sass/patientDashboard.scss */
+.dashboard-container {
+  display: inline-block;
+  width: 100%;
+  min-height: 30%;
+}
+/* line 13, ../../../compass/sass/patientDashboard.scss */
+.dashboard-container .actions {
+  font-size: 0.85em;
+  text-align: right;
+  margin-top: 25px;
+  margin-bottom: -40px;
+}
+/* line 19, ../../../compass/sass/patientDashboard.scss */
+.dashboard-container .actions i {
+  font-size: 1.2em;
+}
+/* line 23, ../../../compass/sass/patientDashboard.scss */
+.dashboard-container .actions div {
+  display: inline-block;
+  margin: 0 5px;
+}
+/* line 30, ../../../compass/sass/patientDashboard.scss */
+.dashboard-container .contact-info ul li {
+  padding: 10px 5px;
+  border-bottom: 1px solid #EEE;
+}
+/* line 34, ../../../compass/sass/patientDashboard.scss */
+.dashboard-container .contact-info ul li strong {
+  display: inline-block;
+  width: 120px;
+}
+/* line 41, ../../../compass/sass/patientDashboard.scss */
+.dashboard-container #visits {
+  padding: 10px 0;
+}
+/* line 45, ../../../compass/sass/patientDashboard.scss */
+.dashboard-container #visits-list {
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-left: none;
+}
+/* line 50, ../../../compass/sass/patientDashboard.scss */
+.dashboard-container #visits-list li {
+  border-bottom: 1px solid white;
+  padding: 10px 10px 0px 10px;
+  min-height: 55px;
+  width: 180px;
+  color: #666;
+  background: #eee;
+  padding-bottom: 5px;
+  position: relative;
+  -moz-box-shadow: inset 0px -1px 0px #bbbbbb;
+  -webkit-box-shadow: inset 0px -1px 0px #bbbbbb;
+  -o-box-shadow: inset 0px -1px 0px #bbbbbb;
+  box-shadow: inset 0px -1px 0px #bbbbbb;
+}
+/* line 61, ../../../compass/sass/patientDashboard.scss */
+.dashboard-container #visits-list li:last-child {
+  border-bottom: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+}
+/* line 66, ../../../compass/sass/patientDashboard.scss */
+.dashboard-container #visits-list li:hover:not(.selected) {
+  color: white;
+  background: #0072ab;
+  cursor: pointer;
+}
+/* line 71, ../../../compass/sass/patientDashboard.scss */
+.dashboard-container #visits-list li:hover:not(.selected) .visit-primary-diagnosis {
+  color: white;
+}
+/* line 75, ../../../compass/sass/patientDashboard.scss */
+.dashboard-container #visits-list li:hover:not(.selected) .visit-date {
+  border-bottom: 1px dotted white;
+}
+/* line 80, ../../../compass/sass/patientDashboard.scss */
+.dashboard-container #visits-list li .arrow-border, .dashboard-container #visits-list li .arrow {
+  display: none;
+}
+/* line 84, ../../../compass/sass/patientDashboard.scss */
+.dashboard-container #visits-list li.selected {
+  background: white;
+  color: #003f5e;
+}
+/* line 88, ../../../compass/sass/patientDashboard.scss */
+.dashboard-container #visits-list li.selected .arrow-border, .dashboard-container #visits-list li.selected .arrow {
+  display: block;
+}
+/* line 92, ../../../compass/sass/patientDashboard.scss */
+.dashboard-container #visits-list li.selected .visit-date {
+  border-bottom: 1px dotted #888;
+}
+/* line 97, ../../../compass/sass/patientDashboard.scss */
+.dashboard-container #visits-list li i {
+  font-size: 1.2em;
+  margin: -3px;
+  padding: 0px;
+}
+/* line 103, ../../../compass/sass/patientDashboard.scss */
+.dashboard-container #visits-list li .visit-date {
+  display: block;
+  font-size: 0.75em;
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 7px;
+}
+/* line 110, ../../../compass/sass/patientDashboard.scss */
+.dashboard-container #visits-list li .visit-primary-diagnosis {
+  line-height: 1.3em;
+  display: block;
+  font-size: 0.95em;
+  padding-top: 7px;
+}
+/* line 117, ../../../compass/sass/patientDashboard.scss */
+.dashboard-container #visits-list li .arrow-border {
+  border-color: transparent transparent transparent #bbb;
+  border-style: solid;
+  border-right-width: 20px;
+  border-left-width: 14px;
+  border-bottom-width: 16px;
+  border-top-width: 16px;
+  height: 0;
+  width: 0;
+  position: absolute;
+  right: -34px;
+  top: 23px;
+}
+/* line 131, ../../../compass/sass/patientDashboard.scss */
+.dashboard-container #visits-list li .arrow {
+  border-color: transparent transparent transparent white;
+  border-style: solid;
+  border-right-width: 20px;
+  border-left-width: 14px;
+  border-bottom-width: 16px;
+  border-top-width: 16px;
+  height: 0;
+  width: 0;
+  position: absolute;
+  right: -33px;
+  top: 23px;
+}
+/* line 147, ../../../compass/sass/patientDashboard.scss */
+.dashboard-container #visit-details {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 25px;
+  border-top: 1px solid #ccc;
+  width: 76.6%;
+  margin-left: -6px;
+}
+/* line 155, ../../../compass/sass/patientDashboard.scss */
+.dashboard-container #visit-details .visit-status {
+  width: 98.4%;
+  color: #003f5e;
+  font-size: 0.9em;
+  display: inline-block;
+  border: 1px solid #EAEAEA;
+  background: #f9f9f9;
+  padding: 5px;
+  margin: 5px 0;
+  -moz-box-shadow: 1px 1px 1px white;
+  -webkit-box-shadow: 1px 1px 1px white;
+  -o-box-shadow: 1px 1px 1px white;
+  box-shadow: 1px 1px 1px white;
+}
+/* line 165, ../../../compass/sass/patientDashboard.scss */
+.dashboard-container #visit-details .visit-status .status {
+  display: inline-block;
+  height: 5px;
+  width: 5px;
+  margin: 2px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -o-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -khtml-border-radius: 20px;
+  border-radius: 20px;
+}
+/* line 174, ../../../compass/sass/patientDashboard.scss */
+.dashboard-container #visit-details .visit-actions {
+  text-align: center;
+  padding: 10px 0;
+  border: 1px solid #CCC;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 180, ../../../compass/sass/patientDashboard.scss */
+.dashboard-container #visit-details .visit-actions a {
+  margin-right: 4px;
+  margin-bottom: 7px;
+}
+/* line 184, ../../../compass/sass/patientDashboard.scss */
+.dashboard-container #visit-details .visit-actions a:hover {
+  color: white;
+  text-decoration: none;
+}
+/* line 191, ../../../compass/sass/patientDashboard.scss */
+.dashboard-container #visit-details .ui-tabs {
+  padding: 0;
+}
+/* line 195, ../../../compass/sass/patientDashboard.scss */
+.dashboard-container #visit-details h3 {
+  margin-bottom: 0;
+}
+
+/* line 202, ../../../compass/sass/patientDashboard.scss */
+#encountersList li {
+  margin-bottom: 20px;
+}
+/* line 204, ../../../compass/sass/patientDashboard.scss */
+#encountersList li .delete-item {
+  top: 15px;
+  padding: 0;
+  margin: 0;
+}
+/* line 211, ../../../compass/sass/patientDashboard.scss */
+#encountersList .encounter-date, #encountersList .encounter-details {
+  display: block;
+}
+/* line 215, ../../../compass/sass/patientDashboard.scss */
+#encountersList .encounter-date {
+  font-size: 0.8em;
+  color: #666;
+  margin-bottom: 5px;
+}
+/* line 219, ../../../compass/sass/patientDashboard.scss */
+#encountersList .encounter-date strong {
+  margin-right: 5px;
+}
+/* line 223, ../../../compass/sass/patientDashboard.scss */
+#encountersList .encounter-date i {
+  font-size: 1.1em;
+  padding: 0;
+  margin: -2px;
+}
+/* line 231, ../../../compass/sass/patientDashboard.scss */
+#encountersList .encounter-details {
+  overflow: hidden;
+  font-size: 0.8em;
+  display: inline-block;
+  border: 1px solid #ccc;
+}
+/* line 237, ../../../compass/sass/patientDashboard.scss */
+#encountersList .encounter-details li {
+  display: inline-block;
+  vertical-align: top;
+  height: 28px;
+}
+/* line 242, ../../../compass/sass/patientDashboard.scss */
+#encountersList .encounter-details li > div {
+  border-right: 1px solid #ccc;
+  padding: 15px 10px;
+  max-width: 321px;
+}
+/* line 249, ../../../compass/sass/patientDashboard.scss */
+#encountersList .encounter-details li:first-child > div {
+  padding: 10px;
+}
+/* line 255, ../../../compass/sass/patientDashboard.scss */
+#encountersList .encounter-details li:last-child > div {
+  margin-left: -3px;
+  border: none;
+  background: #f9f9f9;
+}
+/* line 261, ../../../compass/sass/patientDashboard.scss */
+#encountersList .encounter-details li:last-child > .details-action {
+  max-width: 144px;
+}
+/* line 267, ../../../compass/sass/patientDashboard.scss */
+#encountersList .encounter-details .encounter-type {
+  border-left: 4px solid;
+}
+/* line 270, ../../../compass/sass/patientDashboard.scss */
+#encountersList .encounter-details .encounter-type strong {
+  font-size: 1.2em;
+}
+/* line 273, ../../../compass/sass/patientDashboard.scss */
+#encountersList .encounter-details .encounter-type strong i {
+  font-size: 1.6em;
+  padding: 0;
+}
+/* line 278, ../../../compass/sass/patientDashboard.scss */
+#encountersList .encounter-details .encounter-type strong span {
+  vertical-align: super;
+}
+/* line 284, ../../../compass/sass/patientDashboard.scss */
+#encountersList .encounter-details .view-details {
+  background: #f9f9f9;
+}
+/* line 287, ../../../compass/sass/patientDashboard.scss */
+#encountersList .encounter-details .view-details .hide-details {
+  display: none;
+}
+/* line 292, ../../../compass/sass/patientDashboard.scss */
+#encountersList .encounter-details .view-details:not(.collapsed) .hide-details {
+  display: inline;
+}
+/* line 296, ../../../compass/sass/patientDashboard.scss */
+#encountersList .encounter-details .view-details:not(.collapsed) .show-details {
+  display: none;
+}
+/* line 300, ../../../compass/sass/patientDashboard.scss */
+#encountersList .encounter-details .view-details:not(.collapsed) .icon-caret-right {
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -moz-transition-property: all;
+  -webkit-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -moz-transition-duration: 0.15s;
+  -webkit-transition-duration: 0.15s;
+  -o-transition-duration: 0.15s;
+  transition-duration: 0.15s;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+/* line 308, ../../../compass/sass/patientDashboard.scss */
+#encountersList .encounter-details .view-details i {
+  font-size: 1.2em;
+  padding: 0;
+  position: relative;
+  top: 1px;
+  left: -3px;
+}
+/* line 316, ../../../compass/sass/patientDashboard.scss */
+#encountersList .encounter-details .view-details:hover {
+  text-decoration: none;
+}
+
+/* line 325, ../../../compass/sass/patientDashboard.scss */
+div aside {
+  display: inline-block;
+  vertical-align: top;
+  background: white;
+  width: 23%;
+  text-align: left;
+  margin-top: 10px;
+}
+
+/* line 335, ../../../compass/sass/patientDashboard.scss */
+.collapse {
+  border: none;
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  background: #f9f9f9;
+  -moz-transition-property: height;
+  -webkit-transition-property: height;
+  -o-transition-property: height;
+  transition-property: height;
+  -moz-transition-duration: 0.35s;
+  -webkit-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -moz-transition-timing-function: ease;
+  -webkit-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  transition-timing-function: ease;
+}
+/* line 345, ../../../compass/sass/patientDashboard.scss */
+.collapse small, .collapse htmlform h3 {
+  margin-right: 10px;
+  color: #666;
+}
+/* line 350, ../../../compass/sass/patientDashboard.scss */
+.collapse span, .collapse htmlform p {
+  color: #501d3d;
+  font-size: 0.95em;
+}
+/* line 355, ../../../compass/sass/patientDashboard.scss */
+.collapse fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+/* line 361, ../../../compass/sass/patientDashboard.scss */
+.collapse p, .collapse htmlform fieldset {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+  margin-bottom: 3px;
+}
+/* line 366, ../../../compass/sass/patientDashboard.scss */
+.collapse p:last-child, .collapse htmlform fieldset:last-child {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 373, ../../../compass/sass/patientDashboard.scss */
+.collapse legend, .collapse #no-calculated-bmi, .collapse #calculated-bmi-wrapper, .collapse .title {
+  display: none;
+}
+/* line 377, ../../../compass/sass/patientDashboard.scss */
+.collapse .encounter-summary-container {
+  padding: 15px;
+  border: 1px solid #ccc;
+}
+/* line 382, ../../../compass/sass/patientDashboard.scss */
+.collapse.in {
+  height: auto;
+}
+/* line 387, ../../../compass/sass/patientDashboard.scss */
+.collapse htmlform h3 {
+  font-size: 0.8em;
+  font-weight: normal;
+  display: inline-block;
+  margin: 0;
+}
+/* line 394, ../../../compass/sass/patientDashboard.scss */
+.collapse htmlform p {
+  display: inline-block;
+}
+/* line 397, ../../../compass/sass/patientDashboard.scss */
+.collapse htmlform p span {
+  font-size: 1em;
+}
+/* line 402, ../../../compass/sass/patientDashboard.scss */
+.collapse htmlform .left {
+  float: none;
+  border: none;
+}

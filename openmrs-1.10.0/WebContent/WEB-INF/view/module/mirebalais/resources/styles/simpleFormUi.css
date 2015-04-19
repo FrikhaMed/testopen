@@ -1,0 +1,211 @@
+/* line 4, ../../../compass/sass/simpleFormUi.scss */
+form#retrospectiveCheckin {
+  background: #f9f9f9 url(../images/aside-bg.png) repeat-y -20px;
+}
+/* line 7, ../../../compass/sass/simpleFormUi.scss */
+form#retrospectiveCheckin div#error-message {
+  display: none;
+  margin-left: 40px;
+}
+
+/* line 13, ../../../compass/sass/simpleFormUi.scss */
+ul#formBreadcrumb {
+  float: left;
+  vertical-align: top;
+  width: 220px;
+}
+/* line 18, ../../../compass/sass/simpleFormUi.scss */
+ul#formBreadcrumb li {
+  border: 1px solid #EEE;
+  border-bottom: none;
+  border-right: none;
+}
+/* line 23, ../../../compass/sass/simpleFormUi.scss */
+ul#formBreadcrumb li span {
+  padding: 5px;
+  font-family: "OpenSansBold";
+}
+/* line 28, ../../../compass/sass/simpleFormUi.scss */
+ul#formBreadcrumb li:first-child {
+  -moz-border-radius-topleft: 4px;
+  -webkit-border-top-left-radius: 4px;
+  -o-border-top-left-radius: 4px;
+  -ms-border-top-left-radius: 4px;
+  -khtml-border-top-left-radius: 4px;
+  border-top-left-radius: 4px;
+}
+/* line 32, ../../../compass/sass/simpleFormUi.scss */
+ul#formBreadcrumb li:last-child {
+  border-bottom: 1px solid #EEE;
+  -moz-border-radius-bottomleft: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  -o-border-bottom-left-radius: 4px;
+  -ms-border-bottom-left-radius: 4px;
+  -khtml-border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+/* line 37, ../../../compass/sass/simpleFormUi.scss */
+ul#formBreadcrumb li.doing {
+  border-left: 5px solid #007fff;
+}
+/* line 40, ../../../compass/sass/simpleFormUi.scss */
+ul#formBreadcrumb li.doing ul {
+  display: block;
+}
+/* line 43, ../../../compass/sass/simpleFormUi.scss */
+ul#formBreadcrumb li.doing ul li {
+  border: none;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -o-border-radius: 0;
+  -ms-border-radius: 0;
+  -khtml-border-radius: 0;
+  border-radius: 0;
+}
+/* line 44, ../../../compass/sass/simpleFormUi.scss */
+ul#formBreadcrumb li.doing ul li span {
+  padding-left: 32px;
+  font-weight: normal;
+  font-family: "OpenSans";
+}
+/* line 53, ../../../compass/sass/simpleFormUi.scss */
+ul#formBreadcrumb li.doing ul li.focused {
+  color: #FFF;
+  background-color: #007fff;
+}
+/* line 61, ../../../compass/sass/simpleFormUi.scss */
+ul#formBreadcrumb li.doing .question-legend .icon-ok {
+  display: none;
+  font-size: 0.7em;
+  border: 2px solid;
+  color: #28c900;
+  padding: 3px 3px;
+  margin-left: 6px;
+}
+/* line 71, ../../../compass/sass/simpleFormUi.scss */
+ul#formBreadcrumb li.doing .question-legend.done span {
+  padding-left: 5px;
+}
+/* line 75, ../../../compass/sass/simpleFormUi.scss */
+ul#formBreadcrumb li.doing .question-legend.done .icon-ok {
+  display: inline;
+}
+/* line 82, ../../../compass/sass/simpleFormUi.scss */
+ul#formBreadcrumb li i {
+  display: inline-block;
+  font-size: 1em;
+  border: 3px solid;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -khtml-border-radius: 50%;
+  border-radius: 50%;
+}
+/* line 88, ../../../compass/sass/simpleFormUi.scss */
+ul#formBreadcrumb li i span {
+  font-style: normal;
+  font-weight: 700;
+  padding: 0px 5px;
+  margin-top: -3px;
+}
+/* line 96, ../../../compass/sass/simpleFormUi.scss */
+ul#formBreadcrumb li span {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 100, ../../../compass/sass/simpleFormUi.scss */
+ul#formBreadcrumb li span em {
+  display: block;
+  font-size: .7em;
+  text-align: left;
+}
+/* line 107, ../../../compass/sass/simpleFormUi.scss */
+ul#formBreadcrumb li ul {
+  display: none;
+}
+
+/* line 113, ../../../compass/sass/simpleFormUi.scss */
+section, #confirmation {
+  display: none;
+  border-left: 3px solid #EEE;
+  width: 730px;
+  text-align: left;
+  padding: 10px;
+  background: #F9F9F9;
+}
+/* line 116, ../../../compass/sass/simpleFormUi.scss */
+section.focused, #confirmation.focused {
+  display: inline-block;
+}
+/* line 126, ../../../compass/sass/simpleFormUi.scss */
+section p, #confirmation p {
+  margin: 0 5px;
+  text-align: left;
+  line-height: 35px;
+}
+/* line 131, ../../../compass/sass/simpleFormUi.scss */
+section p label, #confirmation p label {
+  font-size: 1.2em;
+}
+/* line 134, ../../../compass/sass/simpleFormUi.scss */
+section p label span, #confirmation p label span {
+  font-size: 0.8em;
+  color: #999;
+}
+/* line 140, ../../../compass/sass/simpleFormUi.scss */
+section p .field-error, #confirmation p .field-error {
+  color: #c41230;
+  font-size: 1.1em;
+  display: block;
+}
+/* line 147, ../../../compass/sass/simpleFormUi.scss */
+section fieldset, section #confirmationQuestion, #confirmation fieldset, #confirmation #confirmationQuestion {
+  display: none;
+  border: none;
+  padding: 0;
+}
+/* line 152, ../../../compass/sass/simpleFormUi.scss */
+section fieldset.focused, section #confirmationQuestion.focused, #confirmation fieldset.focused, #confirmation #confirmationQuestion.focused {
+  display: block;
+}
+/* line 156, ../../../compass/sass/simpleFormUi.scss */
+section fieldset legend, section #confirmationQuestion legend, #confirmation fieldset legend, #confirmation #confirmationQuestion legend {
+  display: none;
+}
+/* line 158, ../../../compass/sass/simpleFormUi.scss */
+section fieldset select, section fieldset input, section #confirmationQuestion select, section #confirmationQuestion input, #confirmation fieldset select, #confirmation fieldset input, #confirmation #confirmationQuestion select, #confirmation #confirmationQuestion input {
+  display: inline;
+}
+/* line 161, ../../../compass/sass/simpleFormUi.scss */
+section fieldset select:focus, section fieldset input:focus, section #confirmationQuestion select:focus, section #confirmationQuestion input:focus, #confirmation fieldset select:focus, #confirmation fieldset input:focus, #confirmation #confirmationQuestion select:focus, #confirmation #confirmationQuestion input:focus {
+  outline: 2px solid #007fff;
+}
+/* line 166, ../../../compass/sass/simpleFormUi.scss */
+section fieldset select.error, section fieldset input.error, section #confirmationQuestion select.error, section #confirmationQuestion input.error, #confirmation fieldset select.error, #confirmation fieldset input.error, #confirmation #confirmationQuestion select.error, #confirmation #confirmationQuestion input.error {
+  border-color: #c41230;
+}
+
+/* line 175, ../../../compass/sass/simpleFormUi.scss */
+#confirmation ul > li > .label {
+  text-align: right;
+  width: 200px;
+  display: inline-block;
+}
+/* line 181, ../../../compass/sass/simpleFormUi.scss */
+#confirmation ul > li > strong {
+  font-size: 2em;
+}
+/* line 185, ../../../compass/sass/simpleFormUi.scss */
+#confirmation ul > li > strong .after-value {
+  font-size: 0.8em;
+}
+
+/* line 191, ../../../compass/sass/simpleFormUi.scss */
+.simple-form-ui form {
+  background: #f9f9f9 url(../images/aside-bg.png) repeat-y -20px;
+}
+/* line 194, ../../../compass/sass/simpleFormUi.scss */
+.simple-form-ui form input, .simple-form-ui form select, .simple-form-ui form textarea, .simple-form-ui form ul.select {
+  min-width: auto;
+}

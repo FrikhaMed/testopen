@@ -1,0 +1,36 @@
+/* line 1, ../../../compass/sass/runReport.scss */
+.past-reports {
+  display: inline-block;
+  vertical-align: top;
+  width: 60%;
+}
+/* line 6, ../../../compass/sass/runReport.scss */
+.past-reports table {
+  font-size: 0.8em;
+}
+/* line 10, ../../../compass/sass/runReport.scss */
+.past-reports a {
+  cursor: pointer;
+}
+
+/* line 15, ../../../compass/sass/runReport.scss */
+.running-reports {
+  display: inline-block;
+  vertical-align: top;
+  width: 38%;
+}
+/* line 20, ../../../compass/sass/runReport.scss */
+.running-reports table {
+  font-size: 0.9em;
+}
+
+/* line 25, ../../../compass/sass/runReport.scss */
+.report-list {
+  margin-bottom: 1em;
+}
+
+/* line 29, ../../../compass/sass/runReport.scss */
+img.small {
+  width: 24px;
+  height: 24px;
+}

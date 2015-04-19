@@ -1,0 +1,65 @@
+/* line 5, ../../../compass/sass/archivesRoom.scss */
+#mergeRequests ul {
+  margin: 0 60px;
+}
+/* line 8, ../../../compass/sass/archivesRoom.scss */
+#mergeRequests ul h6 {
+  border-bottom: 1px solid #ccc;
+  font-family: "OpenSans";
+  font-weight: normal;
+  color: #777;
+  margin: 10px 0 0 0;
+  font-size: 1em;
+}
+
+/* line 19, ../../../compass/sass/archivesRoom.scss */
+.patients-to-merge, #scan-returned-records {
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  background: #EEE;
+  position: relative;
+}
+/* line 25, ../../../compass/sass/archivesRoom.scss */
+.patients-to-merge .patient, #scan-returned-records .patient {
+  border: 1px solid #ccc;
+  display: inline-block;
+  margin: 10px;
+  padding: 5px 10px 5px 5px;
+  background: white;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 33, ../../../compass/sass/archivesRoom.scss */
+.patients-to-merge .patient .content, #scan-returned-records .patient .content {
+  display: inline-block;
+  width: 200px;
+  text-align: left;
+}
+/* line 38, ../../../compass/sass/archivesRoom.scss */
+.patients-to-merge .patient .content i, #scan-returned-records .patient .content i {
+  float: left;
+}
+/* line 44, ../../../compass/sass/archivesRoom.scss */
+.patients-to-merge .arrow, #scan-returned-records .arrow {
+  display: inline-block;
+}
+/* line 48, ../../../compass/sass/archivesRoom.scss */
+.patients-to-merge .checkbox-done, #scan-returned-records .checkbox-done {
+  display: inline-block;
+  position: absolute;
+  top: 32%;
+  right: 2%;
+}
+
+/* line 55, ../../../compass/sass/archivesRoom.scss */
+#scan-returned-records {
+  border-top: 1px solid #CCC;
+  padding: 20px;
+  text-align: left;
+  margin: 0 auto 20px auto;
+  width: 50%;
+}

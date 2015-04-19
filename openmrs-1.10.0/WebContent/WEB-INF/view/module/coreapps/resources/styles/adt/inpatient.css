@@ -1,0 +1,13 @@
+.inpatient-count {
+  display: inline-block;
+  float: left;
+}
+
+.inpatient-filter {
+  display: inline-block;
+  float: right;
+  margin-top: 10px;
+}
+.inpatient-filter label {
+  margin-right: 10px;
+}

@@ -1,0 +1,80 @@
+/* line 4, ../../../compass/sass/consult.scss */
+#entry-fields {
+  display: inline-block;
+  width: 58%;
+  vertical-align: top;
+}
+/* line 9, ../../../compass/sass/consult.scss */
+#entry-fields p {
+  padding-bottom: 1em;
+}
+
+/* line 16, ../../../compass/sass/consult.scss */
+#consult-note #display-diagnoses {
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+  font-size: 0.9em;
+}
+/* line 21, ../../../compass/sass/consult.scss */
+#consult-note #display-diagnoses h3 {
+  border-bottom: 1px solid #CCC;
+  padding-bottom: 5px;
+}
+/* line 25, ../../../compass/sass/consult.scss */
+#consult-note #display-diagnoses li {
+  margin-bottom: 10px;
+}
+/* line 27, ../../../compass/sass/consult.scss */
+#consult-note #display-diagnoses li .diagnosis {
+  display: inline-block;
+  background: #006191;
+  padding: 5px 10px;
+  width: 89.5%;
+  color: white;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 35, ../../../compass/sass/consult.scss */
+#consult-note #display-diagnoses li i {
+  display: inline;
+}
+
+/* line 41, ../../../compass/sass/consult.scss */
+#buttons {
+  margin-top: 1em;
+}
+
+/* line 45, ../../../compass/sass/consult.scss */
+.matched-name {
+  display: block;
+  font-size: 1em;
+}
+
+/* line 49, ../../../compass/sass/consult.scss */
+.preferred-name {
+  margin-top: 5px;
+  display: block;
+  font-family: "OpenSansLight";
+}
+/* line 53, ../../../compass/sass/consult.scss */
+.preferred-name small {
+  font-size: 1em;
+  color: #bbbbbb;
+}
+
+/* line 59, ../../../compass/sass/consult.scss */
+.code {
+  float: right;
+  font-family: "OpenSansLight";
+  font-size: 0.9em;
+}
+
+/* line 65, ../../../compass/sass/consult.scss */
+.ui-menu .ui-menu-item {
+  border-bottom: 1px gray solid;
+}

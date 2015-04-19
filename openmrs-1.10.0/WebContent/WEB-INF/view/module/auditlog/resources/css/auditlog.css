@@ -1,0 +1,55 @@
+.auditlog_CREATED{
+	background-color: #BAEEBA;
+}
+/*
+.auditlog_UPDATED{
+	background-color: #FCF4B8;
+}
+*/
+.auditlog_DELETED{
+	background-color: #FCDCDC;
+}
+
+div#auditlog_filter, div#auditlog_length{
+	padding-bottom: 5px;
+}
+
+div#auditlog_info, div#auditlog_paginate{
+	padding-top: 10px;
+}
+
+.auditlog_align_text_center{
+	text-align: center;
+}
+
+.auditlog_align_text_left{
+	text-align: left;
+}
+
+.auditlog_align_text_right{
+	text-align: right;
+}
+
+.auditlog_table_header{
+	background-color: #CCCCCC;
+}
+
+table#auditlog tr:hover{
+    background-color: #97B9F7; cursor: pointer; color: #FFFFFF;
+}
+
+.auditlog-changes-element,.auditlog-childAuditLogDetails-element{
+	display: none;
+}
+
+.auditlog_action_image{
+	border: none;
+}
+
+.auditlog_child_log{
+	cursor: pointer; text-decoration: underline; width: 300px
+}
+
+.auditlog_deleted{
+    color: red
+}

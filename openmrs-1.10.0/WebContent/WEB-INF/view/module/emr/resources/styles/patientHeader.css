@@ -1,0 +1,137 @@
+/* line 4, ../../../compass/sass/patientHeader.scss */
+.patient-header {
+  position: relative;
+  overflow: hidden;
+  background: #F9F9F9;
+  z-index: 0;
+  border-bottom: 2px solid #EEE;
+  margin: -9px -9px 10px -9px;
+  padding: 5px 10px;
+}
+/* line 13, ../../../compass/sass/patientHeader.scss */
+.patient-header .demographics {
+  display: inline-block;
+  position: relative;
+  float: left;
+  vertical-align: top;
+}
+/* line 19, ../../../compass/sass/patientHeader.scss */
+.patient-header .demographics .name {
+  cursor: pointer;
+}
+/* line 23, ../../../compass/sass/patientHeader.scss */
+.patient-header .demographics h1 {
+  margin: 0;
+}
+/* line 25, ../../../compass/sass/patientHeader.scss */
+.patient-header .demographics h1 span {
+  display: inline-block;
+}
+/* line 27, ../../../compass/sass/patientHeader.scss */
+.patient-header .demographics h1 span em {
+  font-size: 0.4em;
+  color: #888;
+  border-top: 1px solid #DDD;
+  display: block;
+}
+/* line 35, ../../../compass/sass/patientHeader.scss */
+.patient-header .demographics .gender-age {
+  display: inline-block;
+  vertical-align: text-bottom;
+  font-size: 0.9em;
+}
+/* line 39, ../../../compass/sass/patientHeader.scss */
+.patient-header .demographics .gender-age span {
+  margin-right: 10px;
+}
+/* line 41, ../../../compass/sass/patientHeader.scss */
+.patient-header .demographics .gender-age span:before {
+  content: "·";
+  padding-right: 5px;
+}
+/* line 48, ../../../compass/sass/patientHeader.scss */
+.patient-header .identifiers {
+  max-width: 520px;
+  display: inline-block;
+  float: right;
+  text-align: right;
+  margin-left: 20px;
+}
+/* line 55, ../../../compass/sass/patientHeader.scss */
+.patient-header .identifiers em {
+  width: 120px;
+  display: inline-block;
+  color: #888;
+  font-style: normal;
+  font-size: 0.9em;
+  border-bottom: 1px solid #DDD;
+}
+/* line 63, ../../../compass/sass/patientHeader.scss */
+.patient-header .identifiers span {
+  background: #666;
+  color: white;
+  letter-spacing: 1px;
+  margin: 5px;
+  display: inline-block;
+  padding: 3px 8px;
+  font-size: 0.8em;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -o-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -khtml-border-radius: 50px;
+  border-radius: 50px;
+}
+/* line 72, ../../../compass/sass/patientHeader.scss */
+.patient-header .identifiers span a, .patient-header .identifiers span a:link, .patient-header .identifiers span a:visited {
+  color: #FFF;
+}
+/* line 75, ../../../compass/sass/patientHeader.scss */
+.patient-header .identifiers span.add-id {
+  background: none;
+}
+/* line 77, ../../../compass/sass/patientHeader.scss */
+.patient-header .identifiers span.add-id a, .patient-header .identifiers span.add-id a:link, .patient-header .identifiers span.add-id a:visited {
+  color: #007fff;
+}
+
+/* line 86, ../../../compass/sass/patientHeader.scss */
+.unknown-patient {
+  color: red;
+}
+
+/* line 90, ../../../compass/sass/patientHeader.scss */
+.visit-status, .unknown-patient {
+  font-size: 0.9em;
+  display: inline-block;
+  border: 1px solid #EAEAEA;
+  background: white;
+  padding: 5px;
+  margin: 5px 0;
+  -moz-box-shadow: 1px 1px 1px white;
+  -webkit-box-shadow: 1px 1px 1px white;
+  -o-box-shadow: 1px 1px 1px white;
+  box-shadow: 1px 1px 1px white;
+}
+/* line 98, ../../../compass/sass/patientHeader.scss */
+.visit-status .status, .unknown-patient .status {
+  display: inline-block;
+  height: 5px;
+  width: 5px;
+  margin: 2px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -o-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -khtml-border-radius: 20px;
+  border-radius: 20px;
+}
+/* line 104, ../../../compass/sass/patientHeader.scss */
+.visit-status .status.active, .unknown-patient .status.active {
+  background: #a1d030;
+  border: 1px solid #91bc2b;
+  -moz-box-shadow: 0 0 5px #a1d030;
+  -webkit-box-shadow: 0 0 5px #a1d030;
+  -o-box-shadow: 0 0 5px #a1d030;
+  box-shadow: 0 0 5px #a1d030;
+}

@@ -1,0 +1,149 @@
+/* line 4, ../../../compass/sass/consult.scss */
+#entry-fields {
+  display: inline-block;
+  width: 58%;
+  vertical-align: top;
+}
+/* line 9, ../../../compass/sass/consult.scss */
+#entry-fields p {
+  padding-bottom: 1em;
+}
+
+/* line 14, ../../../compass/sass/consult.scss */
+#deathDate-display, #appointmentDate-display {
+  width: 150px;
+  min-width: 0;
+}
+
+/* line 20, ../../../compass/sass/consult.scss */
+#consult-note #who-where-when-edit {
+  margin-bottom: 6px;
+  border-bottom: 1px solid #ccc;
+}
+/* line 24, ../../../compass/sass/consult.scss */
+#consult-note #who-where-when-edit #consultDate-display {
+  width: 150px;
+  min-width: 0;
+}
+/* line 29, ../../../compass/sass/consult.scss */
+#consult-note #who-where-when-edit #consultProvider-field, #consult-note #who-where-when-edit #consultLocation-field {
+  width: 200px;
+  min-width: 0;
+}
+/* line 34, ../../../compass/sass/consult.scss */
+#consult-note #who-where-when-edit label {
+  margin-top: 0;
+}
+/* line 39, ../../../compass/sass/consult.scss */
+#consult-note #who-where-when-view {
+  width: 600px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+/* line 44, ../../../compass/sass/consult.scss */
+#consult-note #who-where-when-view td {
+  padding-left: 5px;
+}
+/* line 47, ../../../compass/sass/consult.scss */
+#consult-note #who-where-when-view td label {
+  margin-top: 0;
+}
+/* line 54, ../../../compass/sass/consult.scss */
+#consult-note #who-where-when-edit p, #consult-note #who-where-when-edit td, #consult-note #who-where-when-view p, #consult-note #who-where-when-view td {
+  width: 210px;
+}
+/* line 57, ../../../compass/sass/consult.scss */
+#consult-note #who-where-when-edit p, #consult-note #who-where-when-view p {
+  display: inline-block;
+}
+/* line 62, ../../../compass/sass/consult.scss */
+#consult-note #display-diagnoses {
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+  font-size: 0.9em;
+}
+/* line 67, ../../../compass/sass/consult.scss */
+#consult-note #display-diagnoses h3 {
+  border-bottom: 1px solid #CCC;
+  padding-bottom: 5px;
+}
+/* line 71, ../../../compass/sass/consult.scss */
+#consult-note #display-diagnoses li {
+  margin-bottom: 10px;
+}
+/* line 73, ../../../compass/sass/consult.scss */
+#consult-note #display-diagnoses li .diagnosis {
+  display: inline-block;
+  background: #006191;
+  border-left: 8px #006191 solid;
+  padding: 5px 10px;
+  width: 84%;
+  color: white;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 82, ../../../compass/sass/consult.scss */
+#consult-note #display-diagnoses li .diagnosis.primary {
+  border-left: 8px #a1d030 solid;
+}
+/* line 86, ../../../compass/sass/consult.scss */
+#consult-note #display-diagnoses li .diagnosis .actions {
+  float: right;
+  font-size: 0.8em;
+  margin-top: 5px;
+}
+/* line 91, ../../../compass/sass/consult.scss */
+#consult-note #display-diagnoses li .diagnosis .actions input {
+  float: none;
+  margin: 0px 0px 0px 10px;
+  font-size: 0.8em;
+}
+/* line 96, ../../../compass/sass/consult.scss */
+#consult-note #display-diagnoses li .diagnosis .actions label {
+  vertical-align: top;
+  display: inline;
+}
+/* line 102, ../../../compass/sass/consult.scss */
+#consult-note #display-diagnoses li i {
+  display: inline;
+}
+
+/* line 108, ../../../compass/sass/consult.scss */
+#buttons {
+  margin-top: 1em;
+}
+
+/* line 112, ../../../compass/sass/consult.scss */
+.matched-name {
+  display: block;
+  font-size: 1em;
+}
+
+/* line 116, ../../../compass/sass/consult.scss */
+.preferred-name {
+  margin-top: 5px;
+  display: block;
+  font-family: "OpenSansLight";
+}
+/* line 120, ../../../compass/sass/consult.scss */
+.preferred-name small {
+  font-size: 1em;
+  color: #bbbbbb;
+}
+
+/* line 126, ../../../compass/sass/consult.scss */
+.code {
+  float: right;
+  font-family: "OpenSansLight";
+  font-size: 0.9em;
+}
+
+/* line 132, ../../../compass/sass/consult.scss */
+.ui-menu .ui-menu-item {
+  border-bottom: 1px gray solid;
+}

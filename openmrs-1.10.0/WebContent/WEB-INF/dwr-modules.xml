@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dwr
+  PUBLIC "-//GetAhead Limited//DTD Direct Web Remoting 2.0//EN" "http://directwebremoting.org/schema/dwr20.dtd">
+<dwr>
+   <allow moduleId="auditlog">
+			   <convert converter="bean" match="org.openmrs.module.auditlog.web.dwr.AuditLogDetails"/>
+			   <create creator="new" javascript="DWRAuditLogService">
+				     <param name="class" value="org.openmrs.module.auditlog.web.dwr.DWRAuditLogService"/>
+				     <include method="getAuditLogDetails"/>
+			   </create>
+		</allow>
+   <signatures moduleId="auditlog">
+			
+				import org.openmrs.module.auditlog.web.dwr.DWRAuditLogService;
+				
+				DWRAuditLogService.getAuditLogDetails(String auditLogUuid);
+			
+		</signatures>
+</dwr>

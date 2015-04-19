@@ -1,0 +1,10 @@
+/* line 1, ../../../compass/sass/app.scss */
+.task {
+  display: block;
+  text-align: center;
+}
+/* line 5, ../../../compass/sass/app.scss */
+.task img {
+  margin: auto;
+  vertical-align: middle;
+}

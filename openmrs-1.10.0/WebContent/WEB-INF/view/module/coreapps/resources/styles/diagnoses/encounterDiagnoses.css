@@ -1,0 +1,62 @@
+#display-encounter-diagnoses-container {
+  font-size: 0.9em;
+}
+#display-encounter-diagnoses-container h3 {
+  border-bottom: 1px solid #CCC;
+  padding-bottom: 5px;
+}
+#display-encounter-diagnoses-container li {
+  margin-bottom: 10px;
+}
+#display-encounter-diagnoses-container li .diagnosis {
+  display: inline-block;
+  background: #006191;
+  border-left: 8px #006191 solid;
+  padding: 5px 10px;
+  width: 84%;
+  color: white;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+}
+#display-encounter-diagnoses-container li .diagnosis.primary {
+  border-left: 8px #a1d030 solid;
+}
+#display-encounter-diagnoses-container li .diagnosis .actions {
+  float: right;
+  font-size: 0.8em;
+  margin-top: 5px;
+}
+#display-encounter-diagnoses-container li .diagnosis .actions input {
+  float: none;
+  margin: 0px 0px 0px 10px;
+  font-size: 0.8em;
+}
+#display-encounter-diagnoses-container li .diagnosis .actions label {
+  vertical-align: top;
+  display: inline;
+}
+#display-encounter-diagnoses-container li i {
+  display: inline;
+}
+#display-encounter-diagnoses-container .matched-name {
+  display: block;
+  font-size: 1em;
+}
+#display-encounter-diagnoses-container .preferred-name {
+  margin-top: 5px;
+  display: block;
+  font-family: "OpenSansLight";
+}
+#display-encounter-diagnoses-container .preferred-name small {
+  font-size: 1em;
+  color: #bbbbbb;
+}
+#display-encounter-diagnoses-container .code {
+  float: right;
+  font-family: "OpenSansLight";
+  font-size: 0.9em;
+}

@@ -1,0 +1,13 @@
+.relationship {
+  position: relative;
+  border: 1px solid #f3f3f3;
+  padding: 3px;
+  margin-left: 10px;
+}
+.relationship i {
+  cursor: pointer;
+}
+
+.add-confirm-spacer {
+  min-height: 110px;
+}

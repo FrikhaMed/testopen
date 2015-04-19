@@ -1,0 +1,485 @@
+/* line 2, ../../../compass/sass/adHocReport.scss */
+.ad-hoc-report h1 {
+  margin-bottom: 5px;
+}
+/* line 6, ../../../compass/sass/adHocReport.scss */
+.ad-hoc-report h6 {
+  margin-top: 20px;
+  font-size: 1em;
+}
+/* line 11, ../../../compass/sass/adHocReport.scss */
+.ad-hoc-report fieldset {
+  padding: 5px;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* line 18, ../../../compass/sass/adHocReport.scss */
+.ad-hoc-report h2 {
+  margin-bottom: 0;
+}
+/* line 22, ../../../compass/sass/adHocReport.scss */
+.ad-hoc-report h3 {
+  margin-left: 5px;
+  margin-top: 0;
+}
+/* line 27, ../../../compass/sass/adHocReport.scss */
+.ad-hoc-report a.button {
+  min-width: 80px;
+}
+/* line 31, ../../../compass/sass/adHocReport.scss */
+.ad-hoc-report .step {
+  min-height: 400px;
+}
+/* line 35, ../../../compass/sass/adHocReport.scss */
+.ad-hoc-report .navigation {
+  margin: 20px 0;
+}
+/* line 39, ../../../compass/sass/adHocReport.scss */
+.ad-hoc-report .big-table {
+  overflow-y: scroll;
+}
+/* line 43, ../../../compass/sass/adHocReport.scss */
+.ad-hoc-report .step-content {
+  min-height: 300px;
+  margin-top: 15px;
+}
+/* line 48, ../../../compass/sass/adHocReport.scss */
+.ad-hoc-report p {
+  margin-bottom: 10px;
+}
+/* line 51, ../../../compass/sass/adHocReport.scss */
+.ad-hoc-report p label {
+  display: block;
+}
+/* line 56, ../../../compass/sass/adHocReport.scss */
+.ad-hoc-report .icon-chevron-right {
+  font-size: 1.4em;
+  position: relative;
+  top: 200px;
+}
+/* line 62, ../../../compass/sass/adHocReport.scss */
+.ad-hoc-report .view-all {
+  margin-left: 10px;
+  font-size: 0.9em;
+}
+/* line 67, ../../../compass/sass/adHocReport.scss */
+.ad-hoc-report .parameter {
+  background: #363463;
+  color: white;
+  margin: 5px 10px 0 5px;
+  padding: 3px;
+  border-radius: 3px;
+  width: 40%;
+}
+/* line 76, ../../../compass/sass/adHocReport.scss */
+.ad-hoc-report .item {
+  background: #363463;
+  color: white;
+  margin: 5px 10px 0 5px;
+  padding: 3px;
+  border-radius: 3px;
+  width: 96%;
+  float: right;
+}
+/* line 85, ../../../compass/sass/adHocReport.scss */
+.ad-hoc-report .item i {
+  cursor: pointer;
+  padding: 0;
+  float: right;
+  position: relative;
+  top: 3px;
+}
+/* line 94, ../../../compass/sass/adHocReport.scss */
+.ad-hoc-report .ui-autocomplete-input {
+  width: 350px;
+  height: 24px;
+}
+/* line 99, ../../../compass/sass/adHocReport.scss */
+.ad-hoc-report .actions {
+  float: right;
+  margin-left: 5px;
+}
+/* line 103, ../../../compass/sass/adHocReport.scss */
+.ad-hoc-report .actions a, .ad-hoc-report .actions a:active, .ad-hoc-report .actions a:visited {
+  cursor: pointer;
+  text-decoration: none;
+}
+/* line 109, ../../../compass/sass/adHocReport.scss */
+.ad-hoc-report .link {
+  margin-top: 10px;
+}
+/* line 113, ../../../compass/sass/adHocReport.scss */
+.ad-hoc-report em {
+  margin: 0 5px;
+}
+/* line 117, ../../../compass/sass/adHocReport.scss */
+.ad-hoc-report .summary {
+  display: inline-block;
+  font-size: 0.8em;
+  box-shadow: inset 0px 0px 0px 1px rgba(255, 115, 100, 0.4), 0 2px 4px #aaaaaa;
+}
+/* line 122, ../../../compass/sass/adHocReport.scss */
+.ad-hoc-report .summary .summary-parameter {
+  width: 82px;
+  cursor: pointer;
+  background: #eee;
+  padding: 7px;
+  padding-left: 22px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+}
+/* line 132, ../../../compass/sass/adHocReport.scss */
+.ad-hoc-report .summary .summary-parameter:not(:last-child):before {
+  content: " ";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 17px solid transparent;
+  border-bottom: 17px solid transparent;
+  border-left: 17px solid #ccc;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: 91px;
+  z-index: 2;
+}
+/* line 146, ../../../compass/sass/adHocReport.scss */
+.ad-hoc-report .summary .summary-parameter:not(:last-child):after {
+  content: " ";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 16px solid transparent;
+  border-bottom: 16px solid transparent;
+  border-left: 16px solid #eee;
+  position: absolute;
+  margin-top: -25px;
+  margin-left: 89px;
+  z-index: 2;
+}
+/* line 160, ../../../compass/sass/adHocReport.scss */
+.ad-hoc-report .summary .summary-parameter.current {
+  color: white;
+  background: #007FFF;
+}
+/* line 164, ../../../compass/sass/adHocReport.scss */
+.ad-hoc-report .summary .summary-parameter.current:after {
+  border-left: 17px solid #007FFF;
+}
+/* line 169, ../../../compass/sass/adHocReport.scss */
+.ad-hoc-report .summary .summary-parameter.done {
+  background: #3F9E66;
+  color: white;
+}
+/* line 173, ../../../compass/sass/adHocReport.scss */
+.ad-hoc-report .summary .summary-parameter.done:after {
+  border-left: 17px solid #3F9E66;
+}
+/* line 179, ../../../compass/sass/adHocReport.scss */
+.ad-hoc-report .summary h5 {
+  color: #333;
+}
+/* line 183, ../../../compass/sass/adHocReport.scss */
+.ad-hoc-report .summary .disabled {
+  color: #b3b3b3;
+}
+/* line 188, ../../../compass/sass/adHocReport.scss */
+.ad-hoc-report #edit-button {
+  float: right;
+}
+
+/* line 194, ../../../compass/sass/adHocReport.scss */
+#searches ul, #columns ul {
+  width: 48%;
+  display: inline-block;
+  vertical-align: top;
+  border: 2px solid #ccc;
+  height: 400px;
+  overflow: auto;
+  margin-top: 15px;
+  user-select: none;
+  -webkit-user-select: none;
+}
+/* line 205, ../../../compass/sass/adHocReport.scss */
+#searches ul input, #columns ul input {
+  margin: 5px;
+  margin-bottom: 10px;
+}
+/* line 211, ../../../compass/sass/adHocReport.scss */
+#searches .ul-header, #columns .ul-header {
+  background: #eee;
+  padding: 5px;
+  border-bottom: 2px solid #ccc;
+}
+/* line 212, ../../../compass/sass/adHocReport.scss */
+#searches .ul-header input, #columns .ul-header input {
+  margin: 0;
+  width: 98%;
+}
+/* line 221, ../../../compass/sass/adHocReport.scss */
+#searches .ul-header.selected, #columns .ul-header.selected {
+  background: #3F9E66;
+  color: white;
+}
+
+/* line 228, ../../../compass/sass/adHocReport.scss */
+.option {
+  padding: 3px 5px;
+  cursor: pointer;
+}
+/* line 232, ../../../compass/sass/adHocReport.scss */
+.option:nth-child(odd) {
+  background: #eee;
+}
+/* line 236, ../../../compass/sass/adHocReport.scss */
+.option:hover {
+  background: #363463;
+  color: white;
+}
+
+/* line 242, ../../../compass/sass/adHocReport.scss */
+.no-results-message {
+  margin: 10px 0 10px 0;
+}
+
+/* line 246, ../../../compass/sass/adHocReport.scss */
+.no-results button {
+  display: block;
+}
+
+/* line 250, ../../../compass/sass/adHocReport.scss */
+.definition-description {
+  font-size: 0.75em;
+  display: block;
+}
+
+/* line 256, ../../../compass/sass/adHocReport.scss */
+.report-header h3 {
+  display: inline-block;
+}
+
+/* line 261, ../../../compass/sass/adHocReport.scss */
+.button.confirm {
+  padding: 5px;
+  margin-left: 271px;
+}
+
+/* line 266, ../../../compass/sass/adHocReport.scss */
+.manage-adhoc-reports {
+  width: 60%;
+  margin: 0;
+  margin-top: 10px;
+}
+/* line 271, ../../../compass/sass/adHocReport.scss */
+.manage-adhoc-reports i {
+  padding: 0;
+  margin: 0;
+}
+/* line 276, ../../../compass/sass/adHocReport.scss */
+.manage-adhoc-reports a {
+  margin-right: 4px;
+}
+
+/* line 282, ../../../compass/sass/adHocReport.scss */
+.definition-param {
+  font-size: 0.75em;
+  display: list-item;
+}
+
+/* line 287, ../../../compass/sass/adHocReport.scss */
+.modal-definition {
+  margin-bottom: 25px;
+}
+
+/* line 291, ../../../compass/sass/adHocReport.scss */
+.modal-definition-name {
+  font-weight: bold;
+}
+
+/* line 295, ../../../compass/sass/adHocReport.scss */
+.modal-params {
+  margin-bottom: 25px;
+}
+
+/* line 299, ../../../compass/sass/adHocReport.scss */
+.modal-params > div {
+  margin-bottom: 5px;
+}
+
+/* line 303, ../../../compass/sass/adHocReport.scss */
+.modal-header {
+  background: #3F9E66;
+  color: white;
+  padding-left: 10px;
+}
+
+/* line 309, ../../../compass/sass/adHocReport.scss */
+.modal-inputs {
+  margin-bottom: 5px;
+}
+
+/* line 313, ../../../compass/sass/adHocReport.scss */
+.button-left {
+  float: left;
+}
+
+/* line 317, ../../../compass/sass/adHocReport.scss */
+.button-right {
+  float: right;
+}
+
+/* line 321, ../../../compass/sass/adHocReport.scss */
+.cancel-button {
+  background: #FF5A56 !important;
+  border: 1px;
+  border-radius: 3px;
+  color: white;
+  text-shadow: rgba(254, 252, 252, 0.5) 0px 1px 0px;
+}
+
+/* line 329, ../../../compass/sass/adHocReport.scss */
+.add-button {
+  background: #96BA24 !important;
+  border: 1px;
+  border-radius: 3px;
+  color: white;
+  text-shadow: rgba(254, 252, 252, 0.5) 0px 1px 0px;
+}
+
+/* line 337, ../../../compass/sass/adHocReport.scss */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: #000000;
+}
+
+/* line 346, ../../../compass/sass/adHocReport.scss */
+.modal-backdrop.fade {
+  opacity: 0;
+}
+
+/* line 350, ../../../compass/sass/adHocReport.scss */
+.modal-backdrop,
+.modal-backdrop.fade.in {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+/* line 354, ../../../compass/sass/adHocReport.scss */
+.modal {
+  position: fixed;
+  top: 5%;
+  left: 50%;
+  z-index: 1050;
+  width: 960px;
+  margin-left: -480px;
+  background-color: #ffffff;
+  border: 1px solid #999;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  *border: 1px solid #999;
+  /* IE6-7 */
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+  outline: none;
+}
+
+/* line 378, ../../../compass/sass/adHocReport.scss */
+.modal.fade {
+  -webkit-transition: opacity .3s linear, top .3s ease-out;
+  -moz-transition: opacity .3s linear, top .3s ease-out;
+  -o-transition: opacity .3s linear, top .3s ease-out;
+  transition: opacity .3s linear, top .3s ease-out;
+  top: -25%;
+}
+
+/* line 385, ../../../compass/sass/adHocReport.scss */
+.modal.fade.in {
+  top: 5%;
+}
+
+/* line 388, ../../../compass/sass/adHocReport.scss */
+.modal-header {
+  padding: 9px 15px;
+  border-bottom: 1px solid #eee;
+}
+
+/* line 392, ../../../compass/sass/adHocReport.scss */
+.modal-header .close {
+  margin-top: 2px;
+}
+
+/* line 395, ../../../compass/sass/adHocReport.scss */
+.modal-header h3 {
+  margin: 0;
+  line-height: 30px;
+}
+
+/* line 399, ../../../compass/sass/adHocReport.scss */
+.modal-body {
+  position: relative;
+  overflow-y: auto;
+  max-height: 500px;
+  padding: 15px;
+}
+
+/* line 405, ../../../compass/sass/adHocReport.scss */
+.modal-form {
+  margin-bottom: 0;
+}
+
+/* line 408, ../../../compass/sass/adHocReport.scss */
+.modal-footer {
+  padding: 14px 15px 15px;
+  margin-bottom: 0;
+  text-align: right;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+  -webkit-border-radius: 0 0 6px 6px;
+  -moz-border-radius: 0 0 6px 6px;
+  border-radius: 0 0 6px 6px;
+  -webkit-box-shadow: inset 0 1px 0 #ffffff;
+  -moz-box-shadow: inset 0 1px 0 #ffffff;
+  box-shadow: inset 0 1px 0 #ffffff;
+  *zoom: 1;
+}
+
+/* line 423, ../../../compass/sass/adHocReport.scss */
+.modal-footer:before,
+.modal-footer:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+
+/* line 428, ../../../compass/sass/adHocReport.scss */
+.modal-footer:after {
+  clear: both;
+}
+
+/* line 431, ../../../compass/sass/adHocReport.scss */
+.modal-footer .btn + .btn {
+  margin-left: 5px;
+  margin-bottom: 0;
+}
+
+/* line 435, ../../../compass/sass/adHocReport.scss */
+.modal-footer .btn-group .btn + .btn {
+  margin-left: -1px;
+}
+
+/* line 438, ../../../compass/sass/adHocReport.scss */
+.modal-footer .btn-block + .btn-block {
+  margin-left: 0;
+}

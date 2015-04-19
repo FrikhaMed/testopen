@@ -1,0 +1,34 @@
+<htmlform formUuid="d2c7532c-fb01-11e2-8ff2-fd54ab5fdb2a" formName="Admission (Simple)" formEncounterType="e22e39fd-7db2-45e7-80f1-60fa0d5a4378" formVersion="1.0">
+
+    <script type="text/javascript">
+        $(function() {
+            $('#location-container select').focus();
+        });
+    </script>
+
+    <h2><label><uimessage code="referenceapplication.simpleAdmission.title"/></label></h2>
+
+    <section id="admission">
+        <p>
+            <label><uimessage code="referenceapplication.simpleAdmission.admissionDate"/></label>
+            <encounterDate id="encounterDate" showTime="false" default="now"/>
+        </p>
+
+        <p>
+            <label><uimessage code="referenceapplication.simpleAdmission.admittingClinician"/></label>
+            <encounterProviderAndRole default="currentUser" encounterRole="1" required="true"/>
+        </p>
+
+        <p id="location-container">
+            <label><uimessage code="referenceapplication.simpleAdmission.admittedTo"/></label>
+            <encounterLocation required="true" tags="Admission Location"/>
+        </p>
+    </section>
+
+    <submit submitClass="confirm right" submitCode="uicommons.saveForm" />
+
+    <ifMode mode="VIEW" include="false">
+        <button class="cancel"><uimessage code="uicommons.cancelForm"/></button>
+    </ifMode>
+
+</htmlform>

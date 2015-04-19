@@ -1,0 +1,43 @@
+/* line 3, ../../../compass/sass/account.scss */
+form fieldset {
+  margin-bottom: 20px;
+}
+/* line 6, ../../../compass/sass/account.scss */
+form fieldset input[type=button] {
+  margin-top: 0;
+}
+
+/* line 12, ../../../compass/sass/account.scss */
+#accountForm .field-error {
+  color: #c41230;
+}
+/* line 16, ../../../compass/sass/account.scss */
+#accountForm strong, #accountForm .form-header {
+  margin-top: 10px;
+}
+/* line 20, ../../../compass/sass/account.scss */
+#accountForm #format-password {
+  font-style: italic;
+  font-size: 0.90em;
+  color: #aaa;
+}
+
+/* line 28, ../../../compass/sass/account.scss */
+.emr_userDetails #password {
+  color: #777;
+  font-size: 0.9em;
+  text-align: left;
+  font-style: italic;
+  line-height: 1em;
+}
+
+/* line 37, ../../../compass/sass/account.scss */
+#list-accounts {
+  width: 50%;
+  margin: 0;
+  margin-top: 20px;
+}
+/* line 42, ../../../compass/sass/account.scss */
+#list-accounts th {
+  word-break: normal;
+}

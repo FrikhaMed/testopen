@@ -1,0 +1,27 @@
+/* line 1, ../../../compass/sass/login.scss */
+header {
+  overflow: hidden;
+}
+
+/* line 6, ../../../compass/sass/login.scss */
+#login-form ul.select {
+  width: 850px;
+}
+/* line 10, ../../../compass/sass/login.scss */
+#login-form p {
+  margin-right: 20px;
+  text-align: right;
+}
+/* line 14, ../../../compass/sass/login.scss */
+#login-form p input[type=text], #login-form p input[type=password] {
+  width: 405px;
+  margin-bottom: 20px;
+}
+/* line 19, ../../../compass/sass/login.scss */
+#login-form p input[type=submit] {
+  padding: 8px 40px;
+}
+/* line 24, ../../../compass/sass/login.scss */
+#login-form .error-message {
+  text-align: none;
+}

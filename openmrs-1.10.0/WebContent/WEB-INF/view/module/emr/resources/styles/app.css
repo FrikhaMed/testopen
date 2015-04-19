@@ -1,0 +1,21 @@
+/* line 3, ../../../compass/sass/app.scss */
+.task {
+  display: block;
+  text-align: center;
+}
+/* line 7, ../../../compass/sass/app.scss */
+.task img {
+  margin: auto;
+  vertical-align: middle;
+}
+
+/* line 13, ../../../compass/sass/app.scss */
+#tasks .button {
+  padding: 20px 10px;
+  width: 150px;
+  min-height: 90px;
+  vertical-align: top;
+  line-height: 1.3em;
+  margin: 10px;
+  text-align: center;
+}
